@@ -1,4 +1,4 @@
-#include <iostream>
+#include <cassert>
 #include "range.hpp"
 
 auto main() -> int {
