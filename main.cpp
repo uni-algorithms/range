@@ -9,7 +9,7 @@ auto main() -> int {
 
     auto r = uncovered(input);
 
-    if (r.value() == 0)
+    if (r.length() == 0)
         output << 0;
     else
         output << r.head() << " " << r.tail();
